@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Daniel Kantor's Portfolio</title>
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   </head>
@@ -55,8 +57,24 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
         anim id est laborum.
       </p>
+      
       <a href="https://github.com/Chillingfire"><img class="imgToLinks" img src="Images/1024px-Github-desktop-logo-symbol.svg.png" alt="Github"></a>
       <a href="https://www.linkedin.com/in/danielkantora/"><img class="imgToLinks" img src="Images/linkedin-logo.png" alt="LinkedIn"></a>    
+      
+      <div class="contact-section">
+        
+        <h2></br></br>Contact Me</h2>
+
+        <div class="border"></div>
+
+        <form class="contact-form" action="contactform.php" method="post">
+          <input type="text" class="contact-form-text" placeholder="Full name">
+          <input type="email" class="contact-form-text" placeholder="Your e-mail">
+          <input type="text" class="contact-form-text" placeholder="Subject">
+          <textarea class="contact-form-text" placeholder="Your message"></textarea>>
+            <input type="submit" class="contact-form-btn" value="Send">   
+        </form>
+      </div>
     </div>
   </body>
 </html>

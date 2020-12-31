@@ -47,7 +47,7 @@ p {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background: url(Images/02.jpg) no-repeat center;
+    background: url(Images/nature-landscape-mountains-5k-ev-1920x1080.jpg) no-repeat center;
     background-size: cover;
     padding: 40px 0;
 }
@@ -77,4 +77,26 @@ p {
     outline: none;
     color: black;
     transition: 0.5s;
+}
+
+/*.contact-form-text:hover {
+    box-shadow: 0 0 10px 4px white;
+}*/
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: rgb(0, 225, 255);
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover {
+    background: blue; 
 }

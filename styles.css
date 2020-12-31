@@ -64,6 +64,7 @@ p {
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-form-text {
@@ -77,6 +78,7 @@ p {
     outline: none;
     color: black;
     transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*.contact-form-text:hover {
